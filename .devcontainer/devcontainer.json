@@ -2,9 +2,6 @@
 {
   "name": "Solana Developer Environment",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-  "features": {
-    "ghcr.io/devcontainers-extra/features/pnpm:2": {}
-  },
   "postCreateCommand": "bash .devcontainer/post-create.sh",
   "customizations": {
     "vscode": {
