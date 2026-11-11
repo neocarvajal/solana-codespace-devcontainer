@@ -1,7 +1,7 @@
 
 {
   "name": "Solana Developer Environment",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "features": {
     "ghcr.io/devcontainers-extra/features/pnpm:2": {}
   },
@@ -11,9 +11,8 @@
       "extensions": [
         "rust-lang.rust-analyzer",
         "tamasfe.even-better-toml",
-        "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "bradlc.vscode-tailwindcss"
+        "dbaeumer.vscode-eslint"
       ]
     }
   }
