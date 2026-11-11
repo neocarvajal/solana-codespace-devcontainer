@@ -1,0 +1,26 @@
+
+{
+  "name": "solana-development-environment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "codama:init": "codama init",
+    "codama:generate": "codama run js",
+    "codama:generate:all": "codama run --all"
+  },
+  "dependencies": {
+    "@solana/kit": "latest",
+    "@solana/kit-plugin-rpc": "latest",
+    "@solana/kit-plugin-signer": "latest",
+    "@solana/kit-plugin-wallet": "latest",
+    "@solana-program/system": "latest",
+    "@solana-program/token": "latest"
+  },
+  "devDependencies": {
+    "codama": "latest",
+    "@codama/nodes-from-anchor": "latest",
+    "@codama/renderers-js": "latest",
+    "typescript": "latest",
+    "tsx": "latest"
+  }
+}
